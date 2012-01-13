@@ -17,9 +17,6 @@ function Soundtrackify() {
     // Get the country from the user's session (special case because rotten tomatoes uses UK instead of GB
     self.country = (self.m.session.country == 'GB') ? 'UK' : self.m.session.country;
 
-    // Last FM stuff
-    self.lastFmApiKey = '0ca2faf151f9e7502d12c4ac2eca25dc';
-
     /**
      * Hook into our app
      */
