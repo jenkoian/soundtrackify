@@ -1,4 +1,159 @@
-h1, img {
-	font-size: 24px;
-	padding: 20px;
+header {
+   position:fixed;
+   width:100%;
+   z-index:999;
+   background:#1b1b1b;
+   padding:10px 0;
+   top:0;
+}
+
+h1 {
+   font-weight:bold;
+   padding-left:10px;
+
+}
+
+header aside {
+   float:right;
+   margin-right:10px;
+}
+
+footer {
+    padding: 10px;
+}
+
+footer p {
+    font-size: 80%;
+}
+
+#movies {
+    padding: 10px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+#movies li {
+   float: left;
+   padding: 0px;
+}
+
+.cover {
+   display:block;
+   position:relative;
+   padding:10px;
+   margin:5px;
+   border-radius:3px;
+   text-decoration:none;
+   -webkit-transition:background 100ms linear;
+   border:1px solid transparent;
+}
+
+.error {
+   text-align:center;
+   background:#fcc;
+   padding:10px;
+   border-radius:3px;
+   margin:10px;
+   color:#000;
+}
+
+.error h2 {
+   color:#f00;
+   font-weight:bold;
+   text-shadow:0px 1px 2px #fff;
+}
+
+.cover .image {
+   position:relative;
+
+}
+
+.cover .player {
+   position:absolute;
+   width:43px;
+   height:43px;
+   bottom:68px;
+   display:none;
+   right:15px;
+   background:url(/img/buttons/Medium/Play-Medium.png);
+}
+
+.cover .player.pause {
+   background:url(/img/buttons/Medium/Pause-Medium.png);
+}
+
+li.first:before {
+   position:absolute;
+   top:-10px;
+   left:20px;
+   text-transform:uppercase;
+   content: "Next Track";
+   display:block;
+   color:#fff;
+   font-weight:bold;
+}
+
+li .first {
+   display:none;
+}
+
+.first .first {
+   display:block;
+}
+
+.first .cover {
+   background:rgba(200,255,200,0.05);
+   box-shadow:#fff 0px 0px 5px inset;
+   border:1px solid #1a1a1a;
+}
+
+.cover:hover {
+   background:rgba(255,255,255,0.05);
+   box-shadow:#000 0px 0px 5px inset;
+}
+
+.cover:hover .player {
+   display:block;
+}
+
+.cover .player:hover {
+   background:url(/img/buttons/Medium/Play-Medium-Hover.png);
+}
+
+.cover .player.pause:hover {
+   background:url(/img/buttons/Medium/Pause-Medium-Hover.png);
+}
+
+.cover .player:active {
+   background:url(/img/buttons/Medium/Play-Medium-Pressed.png);
+}
+
+.cover .player.pause:active {
+   background:url(/img/buttons/Medium/Pause-Medium-Pressed.png);
+}
+
+.first {
+   position:relative;
+}
+
+.cover .title {
+   display:block;
+   text-align:center;
+   padding-top:10px;
+   width:100%;
+   white-space:nowrap;
+   overflow:hidden;
+   text-overflow:ellipsis;
+   color:#fff;
+   font-weight:bold;
+
+}
+
+.cover .artist {
+   overflow:hidden;
+   width:100%;
+   white-space:nowrap;
+   text-overflow:ellipsis;
+   display:block;
+   text-align:center;
 }

@@ -3,17 +3,27 @@
 <head>
 	<meta charset="utf-8">
 	<title>Soundtrackify</title>
-	<link rel="stylesheet" href="sp://import/css/adam.css">
-        <link rel="stylesheet" href="sp://import/css/api.css">
-	<link rel="stylesheet" href="soundtrackify.css">
+	<link rel="stylesheet" href="sp://import/css/adam.css" />
+    <link rel="stylesheet" href="sp://import/css/api.css" />
+	<link rel="stylesheet" href="css/soundtrackify.css" />
 </head>
 <body>
 
-    <h1>Latest Movies</h1>
+    <header>
+        <h1>Soundtrackify: Showing soundtracks* to the latest films in the box office right now</h1>
+    </header>
 
     <div id="info"></div>
 
+    <div class="throbber">
+        <div></div>
+    </div>
+
     <ul id="movies"></ul>
+
+    <footer>
+        <p>*Soundtrack album is a best guess. There is no fool proof way of determining whether a soundtrack if correct or not.</p>
+    </footer>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
     <script src="js/soundtrackify.js"></script>
