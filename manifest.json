@@ -1,18 +1,18 @@
 {
-	"BundleType": "Application",
-	"AppIcon": {
-		"36x18": "soundtrackify.png"
-	},
-	"AppName": {
-		"en": "Soundtrackify"
-	},
-	"SupportedLanguages": [
-		"en"
-	],
-	"RequiredPermissions": [
-		"http://*.googleapis.com",
+    "BundleType": "Application",
+    "AppIcon": {
+        "36x18": "soundtrackify.png"
+    },
+    "AppName": {
+        "en": "Soundtrackify"
+    },
+    "SupportedLanguages": [
+        "en"
+    ],
+    "RequiredPermissions": [
+        "http://*.googleapis.com",
         "http://*.rottentomatoes.com",
         "http://*.spotify.com",
         "http://*.audioscrobbler.com"
-	]
+    ]
 }
