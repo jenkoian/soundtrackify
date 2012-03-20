@@ -19,4 +19,4 @@ Install instructions
 - Clone the soundtrackify project into this Spotify folder
 - Open up spotify and search for spotify:app:soundtrackify
 
-![Screnshot screenshot](https://github.com/jenkoian/soundtrackify/blob/master/screenshot.jpg "Soundtrackify")
+![Screnshot screenshot](https://github.com/jenkoian/soundtrackify/raw/master/screenshot.jpg "Soundtrackify")
